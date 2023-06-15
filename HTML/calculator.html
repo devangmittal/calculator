@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="../CSS/calculator.css">
+
+	<script type="text/javascript" src="../JS/calculator.js">	</script>
+
+<body>
+
+	<div class="border">
+		<h1>
+			Calculator
+		</h1>
+		<div>
+			<input class="inputbox" type="text" id="cinput" />
+		</div>
+		<div class="container">
+			<div id="c1" onclick="handleNum('1')">
+				<button>1</button>
+			</div>
+			<div id="c2" onclick="handleNum('2')">
+				<button>2</button>
+			</div>
+			<div id="c3" onclick="handleNum('3')">
+				<button>3</button>
+			</div>
+			<div id="c+" onclick="handleOp('+')">
+				<button>+</button>
+			</div>
+			<div id="c4" onclick="handleNum('4')">
+				<button>4</button>
+			</div>
+			<div id="c5" onclick="handleNum('5')">
+				<button>5</button>
+			</div>
+			<div id="c6" onclick="handleNum('6')">
+				<button>6</button>
+			</div>
+			<div id="c-" onclick="handleOp('-')">
+				<button>-</button>
+			</div>
+			<div id="c7" onclick="handleNum('7')">
+				<button>7</button>
+			</div>
+			<div id="c8" onclick="handleNum('8')">
+				<button>8</button>
+			</div>
+			<div id="c9" onclick="handleNum('9')">
+				<button>9</button>
+			</div>
+			<div id="c*" onclick="handleOp('*')">
+				<button>*</button>
+			</div>
+			<div id="c/" onclick="handleOp('/')">
+				<button>/</button>
+			</div>
+			<div id="c0" onclick="handleNum('0')">
+				<button>0</button>
+			</div>
+			<div id="c." onclick="handleNum('.')">
+				<button>.</button>
+			</div>
+			<div id="c=" onclick="handleEq()">
+				<button>=</button>
+			</div>
+		</div>
+		<div class="clearbtn" id="clear" onclick="clearScreen()">
+			<button>Clear All</button>
+		</div>
+	</div>
+
+
+
+
+</body>
+</head>
+
+</html>
